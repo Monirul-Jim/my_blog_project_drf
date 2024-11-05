@@ -6,6 +6,7 @@ class UserRegistrationSerializers(serializers.ModelSerializer):
     confirm_password = serializers.CharField(required=True)
 
     class Meta:
+        model = User
         fields = ['username', 'first_name', 'last_name',
                   'email', 'password', 'confirm_password']
 
@@ -35,4 +36,5 @@ class UserLoginSerializers(serializers.ModelSerializer):
     password = serializers.CharField(required=True)
 
     class Meta:
+        model = User
         fields = ['email', 'password']

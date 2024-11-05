@@ -25,6 +25,14 @@
         "documentation": {}
     },
     {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "load_dotenv",
         "importPath": "dotenv",
         "description": "dotenv",
@@ -81,6 +89,46 @@
         "documentation": {}
     },
     {
+        "label": "ModelBackend",
+        "importPath": "django.contrib.auth.backends",
+        "description": "django.contrib.auth.backends",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.backends",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -90,6 +138,22 @@
     },
     {
         "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
         "importPath": "rest_framework",
         "description": "rest_framework",
         "isExtraImport": true,
@@ -121,11 +185,75 @@
         "documentation": {}
     },
     {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
+        "label": "UserRegistrationView",
+        "importPath": "signup_login.views",
+        "description": "signup_login.views",
         "isExtraImport": true,
-        "detail": "django.shortcuts",
+        "detail": "signup_login.views",
+        "documentation": {}
+    },
+    {
+        "label": "UserLoginView",
+        "importPath": "signup_login.views",
+        "description": "signup_login.views",
+        "isExtraImport": true,
+        "detail": "signup_login.views",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "UserRegistrationSerializers",
+        "importPath": "signup_login.serializers",
+        "description": "signup_login.serializers",
+        "isExtraImport": true,
+        "detail": "signup_login.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "UserLoginSerializers",
+        "importPath": "signup_login.serializers",
+        "description": "signup_login.serializers",
+        "isExtraImport": true,
+        "detail": "signup_login.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "RefreshToken",
+        "importPath": "rest_framework_simplejwt.tokens",
+        "description": "rest_framework_simplejwt.tokens",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.tokens",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "now",
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "isExtraImport": true,
+        "detail": "django.utils.timezone",
         "documentation": {}
     },
     {
@@ -178,7 +306,7 @@
         "kind": 5,
         "importPath": "blog_project_backend.settings",
         "description": "blog_project_backend.settings",
-        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    \"corsheaders\",",
         "detail": "blog_project_backend.settings",
         "documentation": {}
     },
@@ -187,7 +315,7 @@
         "kind": 5,
         "importPath": "blog_project_backend.settings",
         "description": "blog_project_backend.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',\n]\nMIDDLEWARE = [",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    \"corsheaders\",\n    'rest_framework_simplejwt',\n    'rest_framework.authtoken',",
         "detail": "blog_project_backend.settings",
         "documentation": {}
     },
@@ -196,7 +324,7 @@
         "kind": 5,
         "importPath": "blog_project_backend.settings",
         "description": "blog_project_backend.settings",
-        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'blog_project_backend.urls'",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'corsheaders.middleware.CorsMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
         "detail": "blog_project_backend.settings",
         "documentation": {}
     },
@@ -242,6 +370,60 @@
         "importPath": "blog_project_backend.settings",
         "description": "blog_project_backend.settings",
         "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "blog_project_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOWED_ORIGINS",
+        "kind": 5,
+        "importPath": "blog_project_backend.settings",
+        "description": "blog_project_backend.settings",
+        "peekOfCode": "CORS_ALLOWED_ORIGINS = [\n    'http://localhost:5173'\n]\nCSRF_TRUSTED_ORIGINS = [\"http://localhost:5173\", \"http://localhost:8000\"]\nCORS_ALLOW_METHODS = (\n    \"DELETE\",\n    \"GET\",\n    \"OPTIONS\",\n    \"PATCH\",\n    \"POST\",",
+        "detail": "blog_project_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CSRF_TRUSTED_ORIGINS",
+        "kind": 5,
+        "importPath": "blog_project_backend.settings",
+        "description": "blog_project_backend.settings",
+        "peekOfCode": "CSRF_TRUSTED_ORIGINS = [\"http://localhost:5173\", \"http://localhost:8000\"]\nCORS_ALLOW_METHODS = (\n    \"DELETE\",\n    \"GET\",\n    \"OPTIONS\",\n    \"PATCH\",\n    \"POST\",\n    \"PUT\",\n)\nREST_FRAMEWORK = {",
+        "detail": "blog_project_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOW_METHODS",
+        "kind": 5,
+        "importPath": "blog_project_backend.settings",
+        "description": "blog_project_backend.settings",
+        "peekOfCode": "CORS_ALLOW_METHODS = (\n    \"DELETE\",\n    \"GET\",\n    \"OPTIONS\",\n    \"PATCH\",\n    \"POST\",\n    \"PUT\",\n)\nREST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (",
+        "detail": "blog_project_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "blog_project_backend.settings",
+        "description": "blog_project_backend.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    )\n}\nSIMPLE_JWT = {\n    'AUTH_COOKIE_REFRESH': 'refresh_token',\n    'ACCESS_TOKEN_LIFETIME': timedelta(days=30),\n    'REFRESH_TOKEN_LIFETIME': timedelta(days=30),\n    'ROTATE_REFRESH_TOKENS': True,",
+        "detail": "blog_project_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SIMPLE_JWT",
+        "kind": 5,
+        "importPath": "blog_project_backend.settings",
+        "description": "blog_project_backend.settings",
+        "peekOfCode": "SIMPLE_JWT = {\n    'AUTH_COOKIE_REFRESH': 'refresh_token',\n    'ACCESS_TOKEN_LIFETIME': timedelta(days=30),\n    'REFRESH_TOKEN_LIFETIME': timedelta(days=30),\n    'ROTATE_REFRESH_TOKENS': True,\n    'BLACKLIST_AFTER_ROTATION': True,\n    'AUTH_HEADER_TYPES': ('Bearer',),\n    'AUTH_TOKEN_CLASSES': ('rest_framework_simplejwt.tokens.AccessToken',),\n    'TOKEN_USER_CLASS': 'rest_framework_simplejwt.models.TokenUser',\n    'AUTH_COOKIE_SECURE': False,",
+        "detail": "blog_project_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTHENTICATION_BACKENDS",
+        "kind": 5,
+        "importPath": "blog_project_backend.settings",
+        "description": "blog_project_backend.settings",
+        "peekOfCode": "AUTHENTICATION_BACKENDS = [\n    'signup_login.backends.EmailBackend',\n    'django.contrib.auth.backends.ModelBackend',\n]\nLANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/",
         "detail": "blog_project_backend.settings",
         "documentation": {}
     },
@@ -304,7 +486,7 @@
         "kind": 5,
         "importPath": "blog_project_backend.urls",
         "description": "blog_project_backend.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('auth/', include('signup_login'))\n]",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('auth/', include('signup_login.urls'))\n]",
         "detail": "blog_project_backend.urls",
         "documentation": {}
     },
@@ -327,11 +509,20 @@
         "documentation": {}
     },
     {
+        "label": "EmailBackend",
+        "kind": 6,
+        "importPath": "signup_login.backends",
+        "description": "signup_login.backends",
+        "peekOfCode": "class EmailBackend(ModelBackend):\n    def authenticate(self, request, email=None, password=None, **kwargs):\n        UserModel = get_user_model()\n        try:\n            user = UserModel.objects.get(email=email)\n            if user.check_password(password):\n                return user\n        except UserModel.DoesNotExist:\n            return None",
+        "detail": "signup_login.backends",
+        "documentation": {}
+    },
+    {
         "label": "UserRegistrationSerializers",
         "kind": 6,
         "importPath": "signup_login.serializers",
         "description": "signup_login.serializers",
-        "peekOfCode": "class UserRegistrationSerializers(serializers.ModelSerializer):\n    confirm_password = serializers.CharField(required=True)\n    class Meta:\n        fields = ['username', 'first_name', 'last_name',\n                  'email', 'password', 'confirm_password']\n    def save(self):\n        username = self.validated_data['username']\n        first_name = self.validated_data['first_name']\n        last_name = self.validated_data['last_name']\n        email = self.validated_data['email']",
+        "peekOfCode": "class UserRegistrationSerializers(serializers.ModelSerializer):\n    confirm_password = serializers.CharField(required=True)\n    class Meta:\n        model = User\n        fields = ['username', 'first_name', 'last_name',\n                  'email', 'password', 'confirm_password']\n    def save(self):\n        username = self.validated_data['username']\n        first_name = self.validated_data['first_name']\n        last_name = self.validated_data['last_name']",
         "detail": "signup_login.serializers",
         "documentation": {}
     },
@@ -340,7 +531,7 @@
         "kind": 6,
         "importPath": "signup_login.serializers",
         "description": "signup_login.serializers",
-        "peekOfCode": "class UserLoginSerializers(serializers.ModelSerializer):\n    email = serializers.EmailField(required=True)\n    password = serializers.CharField(required=True)\n    class Meta:\n        fields = ['email', 'password']",
+        "peekOfCode": "class UserLoginSerializers(serializers.ModelSerializer):\n    email = serializers.EmailField(required=True)\n    password = serializers.CharField(required=True)\n    class Meta:\n        model = User\n        fields = ['email', 'password']",
         "detail": "signup_login.serializers",
         "documentation": {}
     },
@@ -349,7 +540,16 @@
         "kind": 5,
         "importPath": "signup_login.urls",
         "description": "signup_login.urls",
-        "peekOfCode": "router = DefaultRouter()\nurlpatterns = router.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter = DefaultRouter()\nrouter.register(r'signup', UserRegistrationView, basename='signup')\nrouter.register(r'login', UserLoginView, basename='login')\nurlpatterns = router.urls",
+        "detail": "signup_login.urls",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "signup_login.urls",
+        "description": "signup_login.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register(r'signup', UserRegistrationView, basename='signup')\nrouter.register(r'login', UserLoginView, basename='login')\nurlpatterns = router.urls",
         "detail": "signup_login.urls",
         "documentation": {}
     },
@@ -360,6 +560,33 @@
         "description": "signup_login.urls",
         "peekOfCode": "urlpatterns = router.urls",
         "detail": "signup_login.urls",
+        "documentation": {}
+    },
+    {
+        "label": "UserRegistrationView",
+        "kind": 6,
+        "importPath": "signup_login.views",
+        "description": "signup_login.views",
+        "peekOfCode": "class UserRegistrationView(viewsets.ViewSet):\n    def create(self, request):\n        serializer = UserRegistrationSerializers(data=request.data)\n        if serializer.is_valid():\n            serializer.save()\n            return Response({'message': 'User Registered Successfully'}, status=status.HTTP_201_CREATED)\n        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)\nclass UserLoginView(viewsets.ViewSet):\n    def create(self, request):\n        serializer = UserLoginSerializers(data=request.data)",
+        "detail": "signup_login.views",
+        "documentation": {}
+    },
+    {
+        "label": "UserLoginView",
+        "kind": 6,
+        "importPath": "signup_login.views",
+        "description": "signup_login.views",
+        "peekOfCode": "class UserLoginView(viewsets.ViewSet):\n    def create(self, request):\n        serializer = UserLoginSerializers(data=request.data)\n        if serializer.is_valid():\n            email = serializer.validated_data['email']\n            password = serializer.validated_data['password']\n            user = authenticate(request, email=email, password=password)\n            if user is not None:\n                refresh = RefreshToken.for_user(user)\n                user.last_login = now()",
+        "detail": "signup_login.views",
+        "documentation": {}
+    },
+    {
+        "label": "UserLogoutViewSet",
+        "kind": 6,
+        "importPath": "signup_login.views",
+        "description": "signup_login.views",
+        "peekOfCode": "class UserLogoutViewSet(viewsets.ViewSet):\n    def create(self, request):\n        logout(request)\n        response = Response(\n            {'message': 'User logged out successfully'}, status=status.HTTP_205_RESET_CONTENT)\n        response.delete_cookie('refresh')\n        return response",
+        "detail": "signup_login.views",
         "documentation": {}
     },
     {
