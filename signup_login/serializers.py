@@ -16,14 +16,18 @@ class UserRegistrationSerializers(serializers.ModelSerializer):
         last_name = self.validated_data['last_name']
         email = self.validated_data['email']
         password = self.validated_data['password']
-        password2 = self.validated_data['confirm_password']
+        confirm_password = self.validated_data['confirm_password']
 
-        if password != password2:
+        if password != confirm_password:
             raise serializers.ValidationError(
-                {'error': 'Password Does not match'})
+                {'password': ['Password Does not match']})
+        # if User.objects.filter(email=email).exists():
+        #     raise serializers.ValidationError(
+        #         {'error': 'Email already exists'})
         if User.objects.filter(email=email).exists():
             raise serializers.ValidationError(
-                {'error': 'Email already exists'})
+                {'email': ['Email already exists']})
+
         account = User(username=username, email=email,
                        first_name=first_name, last_name=last_name)
         account.set_password(password)
