@@ -81,6 +81,122 @@
         "documentation": {}
     },
     {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.validators",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.validators",
+        "description": "django.contrib.auth.validators",
+        "detail": "django.contrib.auth.validators",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "now",
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "isExtraImport": true,
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
         "label": "AppConfig",
         "importPath": "django.apps",
         "description": "django.apps",
@@ -129,14 +245,6 @@
         "documentation": {}
     },
     {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
         "label": "serializers",
         "importPath": "rest_framework",
         "description": "rest_framework",
@@ -158,14 +266,6 @@
         "description": "rest_framework",
         "isExtraImport": true,
         "detail": "rest_framework",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
         "documentation": {}
     },
     {
@@ -238,22 +338,6 @@
         "description": "rest_framework_simplejwt.tokens",
         "isExtraImport": true,
         "detail": "rest_framework_simplejwt.tokens",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
-        "documentation": {}
-    },
-    {
-        "label": "now",
-        "importPath": "django.utils.timezone",
-        "description": "django.utils.timezone",
-        "isExtraImport": true,
-        "detail": "django.utils.timezone",
         "documentation": {}
     },
     {
@@ -506,6 +590,42 @@
         "description": "blog_project_backend.wsgi",
         "peekOfCode": "application = get_wsgi_application()",
         "detail": "blog_project_backend.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "signup_login.migrations.0001_initial",
+        "description": "signup_login.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='UserProfile',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "signup_login.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "signup_login.migrations.0002_delete_userprofile",
+        "description": "signup_login.migrations.0002_delete_userprofile",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('signup_login', '0001_initial'),\n    ]\n    operations = [\n        migrations.DeleteModel(\n            name='UserProfile',\n        ),\n    ]",
+        "detail": "signup_login.migrations.0002_delete_userprofile",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "signup_login.migrations.0003_initial",
+        "description": "signup_login.migrations.0003_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n        ('signup_login', '0002_delete_userprofile'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='User',\n            fields=[",
+        "detail": "signup_login.migrations.0003_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "signup_login.migrations.0004_delete_user",
+        "description": "signup_login.migrations.0004_delete_user",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('signup_login', '0003_initial'),\n    ]\n    operations = [\n        migrations.DeleteModel(\n            name='User',\n        ),\n    ]",
+        "detail": "signup_login.migrations.0004_delete_user",
         "documentation": {}
     },
     {
