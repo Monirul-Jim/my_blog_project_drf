@@ -2,7 +2,6 @@ from rest_framework.routers import DefaultRouter
 from signup_login.views import UserRegistrationView, UserLoginView, UserViewSet, BecomeWriterViewSet, AdminApproveWriterViewSet
 from rest_framework_simplejwt.views import TokenRefreshView
 from django.urls import path
-router = DefaultRouter()
 
 router = DefaultRouter()
 router.register(r'signup', UserRegistrationView, basename='signup')

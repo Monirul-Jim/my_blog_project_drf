@@ -57,6 +57,14 @@
         "documentation": {}
     },
     {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
         "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
@@ -86,6 +94,343 @@
         "description": "django.core.wsgi",
         "isExtraImport": true,
         "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "CategoryModel",
+        "importPath": "post.models",
+        "description": "post.models",
+        "isExtraImport": true,
+        "detail": "post.models",
+        "documentation": {}
+    },
+    {
+        "label": "CategoryModel",
+        "importPath": "post.models",
+        "description": "post.models",
+        "isExtraImport": true,
+        "detail": "post.models",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "Group",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "slugify",
+        "importPath": "django.utils.text",
+        "description": "django.utils.text",
+        "isExtraImport": true,
+        "detail": "django.utils.text",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "django.core.exceptions",
+        "description": "django.core.exceptions",
+        "isExtraImport": true,
+        "detail": "django.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "CategoryViewSet",
+        "importPath": "post.views",
+        "description": "post.views",
+        "isExtraImport": true,
+        "detail": "post.views",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
         "documentation": {}
     },
     {
@@ -127,167 +472,6 @@
         "description": "django.conf",
         "isExtraImport": true,
         "detail": "django.conf",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "django.contrib.auth.models",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "detail": "django.contrib.auth.models",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
-        "documentation": {}
-    },
-    {
-        "label": "Group",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
         "documentation": {}
     },
     {
@@ -362,46 +546,6 @@
         "description": "django.contrib.auth",
         "isExtraImport": true,
         "detail": "django.contrib.auth",
-        "documentation": {}
-    },
-    {
-        "label": "serializers",
-        "importPath": "rest_framework",
-        "description": "rest_framework",
-        "isExtraImport": true,
-        "detail": "rest_framework",
-        "documentation": {}
-    },
-    {
-        "label": "viewsets",
-        "importPath": "rest_framework",
-        "description": "rest_framework",
-        "isExtraImport": true,
-        "detail": "rest_framework",
-        "documentation": {}
-    },
-    {
-        "label": "status",
-        "importPath": "rest_framework",
-        "description": "rest_framework",
-        "isExtraImport": true,
-        "detail": "rest_framework",
-        "documentation": {}
-    },
-    {
-        "label": "TestCase",
-        "importPath": "django.test",
-        "description": "django.test",
-        "isExtraImport": true,
-        "detail": "django.test",
-        "documentation": {}
-    },
-    {
-        "label": "DefaultRouter",
-        "importPath": "rest_framework.routers",
-        "description": "rest_framework.routers",
-        "isExtraImport": true,
-        "detail": "rest_framework.routers",
         "documentation": {}
     },
     {
@@ -490,14 +634,6 @@
         "description": "signup_login.serializers",
         "isExtraImport": true,
         "detail": "signup_login.serializers",
-        "documentation": {}
-    },
-    {
-        "label": "Response",
-        "importPath": "rest_framework.response",
-        "description": "rest_framework.response",
-        "isExtraImport": true,
-        "detail": "rest_framework.response",
         "documentation": {}
     },
     {
@@ -813,7 +949,7 @@
         "kind": 5,
         "importPath": "blog_project_backend.urls",
         "description": "blog_project_backend.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('auth/', include('signup_login.urls'))\n]",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('auth/', include('signup_login.urls')),\n    path('post/', include('post.urls')),\n]",
         "detail": "blog_project_backend.urls",
         "documentation": {}
     },
@@ -824,6 +960,69 @@
         "description": "blog_project_backend.wsgi",
         "peekOfCode": "application = get_wsgi_application()",
         "detail": "blog_project_backend.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "post.migrations.0001_initial",
+        "description": "post.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='CategoryModel',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=60)),",
+        "detail": "post.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "PostConfig",
+        "kind": 6,
+        "importPath": "post.apps",
+        "description": "post.apps",
+        "peekOfCode": "class PostConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'post'",
+        "detail": "post.apps",
+        "documentation": {}
+    },
+    {
+        "label": "CategoryModel",
+        "kind": 6,
+        "importPath": "post.models",
+        "description": "post.models",
+        "peekOfCode": "class CategoryModel(models.Model):\n    name = models.CharField(max_length=60, unique=True)\n    slug = models.SlugField(unique=True, blank=True)\n    def save(self, *args, **kwargs):\n        # Check if a category with the same name exists\n        if CategoryModel.objects.filter(name=self.name).exists():\n            raise ValidationError(f\"A category with the name '{\n                                  self.name}' already exists.\")\n        # If slug is not set, generate one from the name\n        if not self.slug:",
+        "detail": "post.models",
+        "documentation": {}
+    },
+    {
+        "label": "CategorySerializer",
+        "kind": 6,
+        "importPath": "post.serializers",
+        "description": "post.serializers",
+        "peekOfCode": "class CategorySerializer(serializers.ModelSerializer):\n    class Meta:\n        model = CategoryModel\n        fields = ['id', 'name', 'slug']\n    def validate_name(self, value):\n        if CategoryModel.objects.filter(name=value).exists():\n            raise serializers.ValidationError(\n                f\"A category with the name '{value}' already exists.\")\n        return value",
+        "detail": "post.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "post.urls",
+        "description": "post.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register(r'category', CategoryViewSet, basename='category')\nurlpatterns = router.urls",
+        "detail": "post.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "post.urls",
+        "description": "post.urls",
+        "peekOfCode": "urlpatterns = router.urls",
+        "detail": "post.urls",
+        "documentation": {}
+    },
+    {
+        "label": "CategoryViewSet",
+        "kind": 6,
+        "importPath": "post.views",
+        "description": "post.views",
+        "peekOfCode": "class CategoryViewSet(viewsets.ViewSet):\n    def list(self, request):\n        categories = CategoryModel.objects.all()\n        serializer = CategorySerializer(categories, many=True)\n        return Response(serializer.data)\n    def create(self, request):\n        serializer = CategorySerializer(data=request.data)\n        if serializer.is_valid():\n            serializer.save()\n            return Response(",
+        "detail": "post.views",
         "documentation": {}
     },
     {
@@ -977,15 +1176,6 @@
         "description": "signup_login.serializers",
         "peekOfCode": "class WriterApplicationStatusSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = WriterApplication\n        fields = ['is_approved']\n    def update(self, instance, validated_data):\n        instance.is_approved = validated_data.get(\n            'is_approved', instance.is_approved)\n        instance.save()\n        return instance",
         "detail": "signup_login.serializers",
-        "documentation": {}
-    },
-    {
-        "label": "router",
-        "kind": 5,
-        "importPath": "signup_login.urls",
-        "description": "signup_login.urls",
-        "peekOfCode": "router = DefaultRouter()\nrouter = DefaultRouter()\nrouter.register(r'signup', UserRegistrationView, basename='signup')\nrouter.register(r'login', UserLoginView, basename='login')\n# router.register(r'users', UserViewSet, basename='users')\nrouter.register(r'user', UserViewSet, basename='user')\nrouter.register(r'apply-to-become-writer',\n                BecomeWriterViewSet, basename='become_writer')\nrouter.register(r'admin/approve-writer',\n                AdminApproveWriterViewSet, basename='approve_writer')",
-        "detail": "signup_login.urls",
         "documentation": {}
     },
     {
