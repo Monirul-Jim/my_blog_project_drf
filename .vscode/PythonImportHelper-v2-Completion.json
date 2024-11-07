@@ -73,6 +73,14 @@
         "documentation": {}
     },
     {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
         "label": "get_wsgi_application",
         "importPath": "django.core.wsgi",
         "description": "django.core.wsgi",
@@ -106,6 +114,46 @@
         "documentation": {}
     },
     {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
@@ -147,6 +195,54 @@
     },
     {
         "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
         "importPath": "django.db",
         "description": "django.db",
         "isExtraImport": true,
@@ -159,6 +255,30 @@
         "isExtraImport": true,
         "importPath": "django.contrib.auth.models",
         "description": "django.contrib.auth.models",
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "Group",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
         "detail": "django.contrib.auth.models",
         "documentation": {}
     },
@@ -197,11 +317,11 @@
         "documentation": {}
     },
     {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
+        "label": "WriterApplication",
+        "importPath": "signup_login.models",
+        "description": "signup_login.models",
         "isExtraImport": true,
-        "detail": "django.apps",
+        "detail": "signup_login.models",
         "documentation": {}
     },
     {
@@ -301,6 +421,38 @@
         "documentation": {}
     },
     {
+        "label": "UserViewSet",
+        "importPath": "signup_login.views",
+        "description": "signup_login.views",
+        "isExtraImport": true,
+        "detail": "signup_login.views",
+        "documentation": {}
+    },
+    {
+        "label": "BecomeWriterViewSet",
+        "importPath": "signup_login.views",
+        "description": "signup_login.views",
+        "isExtraImport": true,
+        "detail": "signup_login.views",
+        "documentation": {}
+    },
+    {
+        "label": "AdminApproveWriterViewSet",
+        "importPath": "signup_login.views",
+        "description": "signup_login.views",
+        "isExtraImport": true,
+        "detail": "signup_login.views",
+        "documentation": {}
+    },
+    {
+        "label": "TokenRefreshView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
+        "documentation": {}
+    },
+    {
         "label": "APIView",
         "importPath": "rest_framework.views",
         "description": "rest_framework.views",
@@ -325,6 +477,22 @@
         "documentation": {}
     },
     {
+        "label": "UserWithRoleSerializer",
+        "importPath": "signup_login.serializers",
+        "description": "signup_login.serializers",
+        "isExtraImport": true,
+        "detail": "signup_login.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "UserRoleUpdateSerializer",
+        "importPath": "signup_login.serializers",
+        "description": "signup_login.serializers",
+        "isExtraImport": true,
+        "detail": "signup_login.serializers",
+        "documentation": {}
+    },
+    {
         "label": "Response",
         "importPath": "rest_framework.response",
         "description": "rest_framework.response",
@@ -338,6 +506,54 @@
         "description": "rest_framework_simplejwt.tokens",
         "isExtraImport": true,
         "detail": "rest_framework_simplejwt.tokens",
+        "documentation": {}
+    },
+    {
+        "label": "action",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "permission_classes",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAdminUser",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "get_token",
+        "importPath": "django.middleware.csrf",
+        "description": "django.middleware.csrf",
+        "isExtraImport": true,
+        "detail": "django.middleware.csrf",
+        "documentation": {}
+    },
+    {
+        "label": "Q",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
         "documentation": {}
     },
     {
@@ -462,7 +678,7 @@
         "kind": 5,
         "importPath": "blog_project_backend.settings",
         "description": "blog_project_backend.settings",
-        "peekOfCode": "CORS_ALLOWED_ORIGINS = [\n    'http://localhost:5173'\n]\nCORS_ALLOW_CREDENTIALS = True\nCSRF_TRUSTED_ORIGINS = [\"http://localhost:5173\", \"http://localhost:8000\"]\nCORS_ALLOW_METHODS = (\n    \"DELETE\",\n    \"GET\",\n    \"OPTIONS\",\n    \"PATCH\",",
+        "peekOfCode": "CORS_ALLOWED_ORIGINS = [\n    'http://localhost:5173'\n]\nCORS_ALLOW_CREDENTIALS = True\nCSRF_TRUSTED_ORIGINS = [\"http://localhost:5173\", \"http://localhost:8000\"]\nCSRF_COOKIE_SECURE = True\nCSRF_COOKIE_HTTPONLY = False\nCORS_ALLOW_METHODS = (\n    \"DELETE\",\n    \"GET\",",
         "detail": "blog_project_backend.settings",
         "documentation": {}
     },
@@ -471,7 +687,7 @@
         "kind": 5,
         "importPath": "blog_project_backend.settings",
         "description": "blog_project_backend.settings",
-        "peekOfCode": "CORS_ALLOW_CREDENTIALS = True\nCSRF_TRUSTED_ORIGINS = [\"http://localhost:5173\", \"http://localhost:8000\"]\nCORS_ALLOW_METHODS = (\n    \"DELETE\",\n    \"GET\",\n    \"OPTIONS\",\n    \"PATCH\",\n    \"POST\",\n    \"PUT\",\n)",
+        "peekOfCode": "CORS_ALLOW_CREDENTIALS = True\nCSRF_TRUSTED_ORIGINS = [\"http://localhost:5173\", \"http://localhost:8000\"]\nCSRF_COOKIE_SECURE = True\nCSRF_COOKIE_HTTPONLY = False\nCORS_ALLOW_METHODS = (\n    \"DELETE\",\n    \"GET\",\n    \"OPTIONS\",\n    \"PATCH\",\n    \"POST\",",
         "detail": "blog_project_backend.settings",
         "documentation": {}
     },
@@ -480,7 +696,25 @@
         "kind": 5,
         "importPath": "blog_project_backend.settings",
         "description": "blog_project_backend.settings",
-        "peekOfCode": "CSRF_TRUSTED_ORIGINS = [\"http://localhost:5173\", \"http://localhost:8000\"]\nCORS_ALLOW_METHODS = (\n    \"DELETE\",\n    \"GET\",\n    \"OPTIONS\",\n    \"PATCH\",\n    \"POST\",\n    \"PUT\",\n)\nREST_FRAMEWORK = {",
+        "peekOfCode": "CSRF_TRUSTED_ORIGINS = [\"http://localhost:5173\", \"http://localhost:8000\"]\nCSRF_COOKIE_SECURE = True\nCSRF_COOKIE_HTTPONLY = False\nCORS_ALLOW_METHODS = (\n    \"DELETE\",\n    \"GET\",\n    \"OPTIONS\",\n    \"PATCH\",\n    \"POST\",\n    \"PUT\",",
+        "detail": "blog_project_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CSRF_COOKIE_SECURE",
+        "kind": 5,
+        "importPath": "blog_project_backend.settings",
+        "description": "blog_project_backend.settings",
+        "peekOfCode": "CSRF_COOKIE_SECURE = True\nCSRF_COOKIE_HTTPONLY = False\nCORS_ALLOW_METHODS = (\n    \"DELETE\",\n    \"GET\",\n    \"OPTIONS\",\n    \"PATCH\",\n    \"POST\",\n    \"PUT\",\n)",
+        "detail": "blog_project_backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CSRF_COOKIE_HTTPONLY",
+        "kind": 5,
+        "importPath": "blog_project_backend.settings",
+        "description": "blog_project_backend.settings",
+        "peekOfCode": "CSRF_COOKIE_HTTPONLY = False\nCORS_ALLOW_METHODS = (\n    \"DELETE\",\n    \"GET\",\n    \"OPTIONS\",\n    \"PATCH\",\n    \"POST\",\n    \"PUT\",\n)\nREST_FRAMEWORK = {",
         "detail": "blog_project_backend.settings",
         "documentation": {}
     },
@@ -629,12 +863,48 @@
         "documentation": {}
     },
     {
-        "label": "SignupLoginConfig",
+        "label": "Migration",
         "kind": 6,
-        "importPath": "signup_login.apps",
-        "description": "signup_login.apps",
-        "peekOfCode": "class SignupLoginConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'signup_login'",
-        "detail": "signup_login.apps",
+        "importPath": "signup_login.migrations.0005_initial",
+        "description": "signup_login.migrations.0005_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n        ('signup_login', '0004_delete_user'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='User',\n            fields=[",
+        "detail": "signup_login.migrations.0005_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "signup_login.migrations.0006_delete_user",
+        "description": "signup_login.migrations.0006_delete_user",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('signup_login', '0005_initial'),\n    ]\n    operations = [\n        migrations.DeleteModel(\n            name='User',\n        ),\n    ]",
+        "detail": "signup_login.migrations.0006_delete_user",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "signup_login.migrations.0007_initial",
+        "description": "signup_login.migrations.0007_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('signup_login', '0006_delete_user'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Profile',\n            fields=[",
+        "detail": "signup_login.migrations.0007_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "signup_login.migrations.0008_delete_profile",
+        "description": "signup_login.migrations.0008_delete_profile",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('signup_login', '0007_initial'),\n    ]\n    operations = [\n        migrations.DeleteModel(\n            name='Profile',\n        ),\n    ]",
+        "detail": "signup_login.migrations.0008_delete_profile",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "signup_login.migrations.0009_initial",
+        "description": "signup_login.migrations.0009_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('signup_login', '0008_delete_profile'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='WriterApplication',\n            fields=[",
+        "detail": "signup_login.migrations.0009_initial",
         "documentation": {}
     },
     {
@@ -644,6 +914,15 @@
         "description": "signup_login.backends",
         "peekOfCode": "class EmailBackend(ModelBackend):\n    def authenticate(self, request, email=None, password=None, **kwargs):\n        UserModel = get_user_model()\n        try:\n            user = UserModel.objects.get(email=email)\n            if user.check_password(password):\n                return user\n        except UserModel.DoesNotExist:\n            return None",
         "detail": "signup_login.backends",
+        "documentation": {}
+    },
+    {
+        "label": "WriterApplication",
+        "kind": 6,
+        "importPath": "signup_login.models",
+        "description": "signup_login.models",
+        "peekOfCode": "class WriterApplication(models.Model):\n    user = models.OneToOneField(User, on_delete=models.CASCADE)\n    first_name = models.CharField(max_length=255)\n    last_name = models.CharField(max_length=255)\n    email = models.EmailField()\n    is_approved = models.BooleanField(default=False)\n    agreed_to_terms = models.BooleanField(default=False)\n    applied_on = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return f\"{self.first_name} {self.last_name} ({self.user.username})\"",
+        "detail": "signup_login.models",
         "documentation": {}
     },
     {
@@ -660,7 +939,43 @@
         "kind": 6,
         "importPath": "signup_login.serializers",
         "description": "signup_login.serializers",
-        "peekOfCode": "class UserLoginSerializers(serializers.ModelSerializer):\n    email = serializers.EmailField(required=True)\n    password = serializers.CharField(required=True)\n    class Meta:\n        model = User\n        fields = ['email', 'password']",
+        "peekOfCode": "class UserLoginSerializers(serializers.ModelSerializer):\n    email = serializers.EmailField(required=True)\n    password = serializers.CharField(required=True)\n    class Meta:\n        model = User\n        fields = ['email', 'password']\nclass UserRoleUpdateSerializer(serializers.ModelSerializer):\n    role = serializers.ChoiceField(choices=['user', 'student', 'writer'])\n    class Meta:\n        model = User",
+        "detail": "signup_login.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "UserRoleUpdateSerializer",
+        "kind": 6,
+        "importPath": "signup_login.serializers",
+        "description": "signup_login.serializers",
+        "peekOfCode": "class UserRoleUpdateSerializer(serializers.ModelSerializer):\n    role = serializers.ChoiceField(choices=['user', 'student', 'writer'])\n    class Meta:\n        model = User\n        fields = ['role']\n    def update(self, instance, validated_data):\n        instance.groups.clear()\n        new_role = validated_data['role']\n        group, created = Group.objects.get_or_create(name=new_role)\n        instance.groups.add(group)",
+        "detail": "signup_login.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "UserWithRoleSerializer",
+        "kind": 6,
+        "importPath": "signup_login.serializers",
+        "description": "signup_login.serializers",
+        "peekOfCode": "class UserWithRoleSerializer(serializers.ModelSerializer):\n    roles = serializers.SerializerMethodField()\n    class Meta:\n        model = User\n        fields = ['id', 'username', 'email',\n                  'first_name', 'last_name', 'roles']\n    def get_roles(self, obj):\n        return [group.name for group in obj.groups.all()]\nclass WriterApplicationSerializer(serializers.ModelSerializer):\n    user = serializers.ReadOnlyField(source='user.username')",
+        "detail": "signup_login.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "WriterApplicationSerializer",
+        "kind": 6,
+        "importPath": "signup_login.serializers",
+        "description": "signup_login.serializers",
+        "peekOfCode": "class WriterApplicationSerializer(serializers.ModelSerializer):\n    user = serializers.ReadOnlyField(source='user.username')\n    class Meta:\n        model = WriterApplication\n        fields = ['id', 'user', 'first_name', 'last_name',\n                  'email', 'is_approved', 'agreed_to_terms']\n    def validate(self, data):\n        if WriterApplication.objects.filter(user=self.context['request'].user).exists():\n            raise serializers.ValidationError(\n                \"You have already applied to become a writer.\")",
+        "detail": "signup_login.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "WriterApplicationStatusSerializer",
+        "kind": 6,
+        "importPath": "signup_login.serializers",
+        "description": "signup_login.serializers",
+        "peekOfCode": "class WriterApplicationStatusSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = WriterApplication\n        fields = ['is_approved']\n    def update(self, instance, validated_data):\n        instance.is_approved = validated_data.get(\n            'is_approved', instance.is_approved)\n        instance.save()\n        return instance",
         "detail": "signup_login.serializers",
         "documentation": {}
     },
@@ -669,7 +984,7 @@
         "kind": 5,
         "importPath": "signup_login.urls",
         "description": "signup_login.urls",
-        "peekOfCode": "router = DefaultRouter()\nrouter = DefaultRouter()\nrouter.register(r'signup', UserRegistrationView, basename='signup')\nrouter.register(r'login', UserLoginView, basename='login')\nurlpatterns = router.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter = DefaultRouter()\nrouter.register(r'signup', UserRegistrationView, basename='signup')\nrouter.register(r'login', UserLoginView, basename='login')\n# router.register(r'users', UserViewSet, basename='users')\nrouter.register(r'user', UserViewSet, basename='user')\nrouter.register(r'apply-to-become-writer',\n                BecomeWriterViewSet, basename='become_writer')\nrouter.register(r'admin/approve-writer',\n                AdminApproveWriterViewSet, basename='approve_writer')",
         "detail": "signup_login.urls",
         "documentation": {}
     },
@@ -678,7 +993,7 @@
         "kind": 5,
         "importPath": "signup_login.urls",
         "description": "signup_login.urls",
-        "peekOfCode": "router = DefaultRouter()\nrouter.register(r'signup', UserRegistrationView, basename='signup')\nrouter.register(r'login', UserLoginView, basename='login')\nurlpatterns = router.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register(r'signup', UserRegistrationView, basename='signup')\nrouter.register(r'login', UserLoginView, basename='login')\n# router.register(r'users', UserViewSet, basename='users')\nrouter.register(r'user', UserViewSet, basename='user')\nrouter.register(r'apply-to-become-writer',\n                BecomeWriterViewSet, basename='become_writer')\nrouter.register(r'admin/approve-writer',\n                AdminApproveWriterViewSet, basename='approve_writer')\nurlpatterns = router.urls + [",
         "detail": "signup_login.urls",
         "documentation": {}
     },
@@ -687,7 +1002,7 @@
         "kind": 5,
         "importPath": "signup_login.urls",
         "description": "signup_login.urls",
-        "peekOfCode": "urlpatterns = router.urls",
+        "peekOfCode": "urlpatterns = router.urls + [\n    path('refresh/', TokenRefreshView.as_view(), name='token_refresh'),\n]",
         "detail": "signup_login.urls",
         "documentation": {}
     },
@@ -714,7 +1029,34 @@
         "kind": 6,
         "importPath": "signup_login.views",
         "description": "signup_login.views",
-        "peekOfCode": "class UserLogoutViewSet(viewsets.ViewSet):\n    def create(self, request):\n        logout(request)\n        response = Response(\n            {'message': 'User logged out successfully'}, status=status.HTTP_205_RESET_CONTENT)\n        response.delete_cookie('refresh')\n        return response",
+        "peekOfCode": "class UserLogoutViewSet(viewsets.ViewSet):\n    def create(self, request):\n        logout(request)\n        response = Response(\n            {'message': 'User logged out successfully'}, status=status.HTTP_205_RESET_CONTENT)\n        response.delete_cookie('refresh')\n        return response\n# class UserViewSet(viewsets.ViewSet):\n#     def list(self, request):\n#         users = User.objects.all()",
+        "detail": "signup_login.views",
+        "documentation": {}
+    },
+    {
+        "label": "UserViewSet",
+        "kind": 6,
+        "importPath": "signup_login.views",
+        "description": "signup_login.views",
+        "peekOfCode": "class UserViewSet(viewsets.ViewSet):\n    @action(detail=True, methods=['put'], url_path='update-role')\n    def update_role(self, request, pk=None):\n        try:\n            user = User.objects.get(pk=pk)\n        except User.DoesNotExist:\n            return Response({\"error\": \"User not found.\"}, status=status.HTTP_404_NOT_FOUND)\n        serializer = UserRoleUpdateSerializer(user, data=request.data)\n        if serializer.is_valid():\n            serializer.save()",
+        "detail": "signup_login.views",
+        "documentation": {}
+    },
+    {
+        "label": "BecomeWriterViewSet",
+        "kind": 6,
+        "importPath": "signup_login.views",
+        "description": "signup_login.views",
+        "peekOfCode": "class BecomeWriterViewSet(viewsets.ModelViewSet):\n    queryset = WriterApplication.objects.all()\n    serializer_class = WriterApplicationSerializer\n    permission_classes = [IsAuthenticated]\n    def get_queryset(self):\n        queryset = super().get_queryset()\n        search_query = self.request.query_params.get('search', None)\n        # Apply filters if search query is provided\n        if search_query:\n            queryset = queryset.filter(",
+        "detail": "signup_login.views",
+        "documentation": {}
+    },
+    {
+        "label": "AdminApproveWriterViewSet",
+        "kind": 6,
+        "importPath": "signup_login.views",
+        "description": "signup_login.views",
+        "peekOfCode": "class AdminApproveWriterViewSet(viewsets.ViewSet):\n    permission_classes = [IsAuthenticated]\n    @action(detail=True, methods=['patch'], url_path='approve')\n    def approve(self, request, pk=None):\n        if not request.user.is_superuser:\n            return Response({\"detail\": \"Only admin can approve applications.\"}, status=status.HTTP_403_FORBIDDEN)\n        try:\n            writer_application = WriterApplication.objects.get(id=pk)\n        except WriterApplication.DoesNotExist:\n            return Response({\"detail\": \"Writer application not found.\"}, status=status.HTTP_404_NOT_FOUND)",
         "detail": "signup_login.views",
         "documentation": {}
     },
