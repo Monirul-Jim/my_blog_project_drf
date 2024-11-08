@@ -1178,7 +1178,7 @@
         "kind": 6,
         "importPath": "post.views",
         "description": "post.views",
-        "peekOfCode": "class PostViewSet(viewsets.ModelViewSet):\n    queryset = PostModel.objects.all()\n    serializer_class = PostModelSerializer\n    def get_queryset(self):\n        queryset = super().get_queryset()\n        categories = self.request.query_params.getlist('category')\n        if categories:\n            queryset = queryset.filter(category__id__in=categories).distinct()\n        time_filter = self.request.query_params.get('time')\n        now = timezone.now()",
+        "peekOfCode": "class PostViewSet(viewsets.ModelViewSet):\n    queryset = PostModel.objects.all()\n    serializer_class = PostModelSerializer\n    def get_queryset(self):\n        queryset = super().get_queryset()\n        user_id = self.request.query_params.get('user')\n        if user_id:\n            queryset = queryset.filter(user__id=user_id)\n        categories = self.request.query_params.getlist('category')\n        if categories:",
         "detail": "post.views",
         "documentation": {}
     },

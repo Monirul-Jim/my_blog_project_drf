@@ -63,6 +63,9 @@ class PostViewSet(viewsets.ModelViewSet):
 
     def get_queryset(self):
         queryset = super().get_queryset()
+        user_id = self.request.query_params.get('user')
+        if user_id:
+            queryset = queryset.filter(user__id=user_id)
         categories = self.request.query_params.getlist('category')
         if categories:
             queryset = queryset.filter(category__id__in=categories).distinct()
@@ -85,7 +88,6 @@ class PostViewSet(viewsets.ModelViewSet):
         return queryset
 
     def create(self, request, *args, **kwargs):
-        # Check if the user has the 'writer' role
         if 'writer' not in [group.name for group in request.user.groups.all()]:
             return Response(
                 {"error": "Only users with the 'writer' role can create posts."},
@@ -95,8 +97,7 @@ class PostViewSet(viewsets.ModelViewSet):
         data = request.data
         categories = data.pop('category_ids', [])
 
-        # Fetch the user instance using the user ID from request data
-        user_id = data.pop('user', None)  # Pop user field from the data
+        user_id = data.pop('user', None)
         if user_id:
             try:
                 user = User.objects.get(id=user_id)
@@ -106,14 +107,12 @@ class PostViewSet(viewsets.ModelViewSet):
                     status=status.HTTP_400_BAD_REQUEST
                 )
         else:
-            # If no user ID is provided, return an error
             return Response(
                 {"error": "User ID is required."},
                 status=status.HTTP_400_BAD_REQUEST
             )
 
         try:
-            # Create the post with the user instance and other data
             post = PostModel.objects.create(user=user, **data)
             post.category.set(categories)
             serializer = self.get_serializer(post)
@@ -145,17 +144,18 @@ class PostViewSet(viewsets.ModelViewSet):
             instance.save()
 
             if categories is not None:
-                instance.category.set(categories)
+                category_objects = CategoryModel.objects.filter(
+                    id__in=categories)
+
+                if category_objects.count() != len(categories):
+                    return Response({"error": "One or more categories not found."}, status=status.HTTP_404_NOT_FOUND)
+
+                instance.category.set(category_objects)
 
             serializer = self.get_serializer(instance)
             return Response(
                 {"message": "Post updated successfully!", "data": serializer.data},
                 status=status.HTTP_200_OK
-            )
-        except ValidationError as e:
-            return Response(
-                {"error": "Failed to update post.", "details": e.detail},
-                status=status.HTTP_400_BAD_REQUEST
             )
         except Exception as e:
             return Response(
