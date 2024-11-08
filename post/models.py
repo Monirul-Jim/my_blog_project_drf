@@ -15,13 +15,20 @@ class CategoryModel(models.Model):
         if CategoryModel.objects.filter(name=self.name).exists():
             raise ValidationError(f"A category with the name '{
                                   self.name}' already exists.")
-
-        # If slug is not set, generate one from the name
         if not self.slug:
             self.slug = slugify(self.name)
 
         super().save(*args, **kwargs)
-# class PostModel(models.Model):
-#     user = models.OneToOneField(User, on_delete=models.CASCADE)
-#     title = models.CharField(max_length=300)
-#     description = models.TextField()
+
+
+class PostModel(models.Model):
+    image = models.URLField()
+    user = models.ForeignKey(
+        User, on_delete=models.CASCADE, related_name='posts')
+    title = models.CharField(max_length=300)
+    description = models.TextField()
+    category = models.ManyToManyField(CategoryModel, related_name='posts')
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.title

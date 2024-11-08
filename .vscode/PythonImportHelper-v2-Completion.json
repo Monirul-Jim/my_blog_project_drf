@@ -113,14 +113,6 @@
         "documentation": {}
     },
     {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
         "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
@@ -137,31 +129,7 @@
         "documentation": {}
     },
     {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
         "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
         "isExtraImport": true,
@@ -233,11 +201,108 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
         "isExtraImport": true,
         "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
         "documentation": {}
     },
     {
@@ -249,7 +314,39 @@
         "documentation": {}
     },
     {
+        "label": "PostModel",
+        "importPath": "post.models",
+        "description": "post.models",
+        "isExtraImport": true,
+        "detail": "post.models",
+        "documentation": {}
+    },
+    {
         "label": "CategoryModel",
+        "importPath": "post.models",
+        "description": "post.models",
+        "isExtraImport": true,
+        "detail": "post.models",
+        "documentation": {}
+    },
+    {
+        "label": "PostModel",
+        "importPath": "post.models",
+        "description": "post.models",
+        "isExtraImport": true,
+        "detail": "post.models",
+        "documentation": {}
+    },
+    {
+        "label": "CategoryModel",
+        "importPath": "post.models",
+        "description": "post.models",
+        "isExtraImport": true,
+        "detail": "post.models",
+        "documentation": {}
+    },
+    {
+        "label": "PostModel",
         "importPath": "post.models",
         "description": "post.models",
         "isExtraImport": true,
@@ -270,6 +367,22 @@
         "isExtraImport": true,
         "importPath": "django.contrib.auth.models",
         "description": "django.contrib.auth.models",
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
         "detail": "django.contrib.auth.models",
         "documentation": {}
     },
@@ -418,11 +531,11 @@
         "documentation": {}
     },
     {
-        "label": "Response",
-        "importPath": "rest_framework.response",
-        "description": "rest_framework.response",
+        "label": "PostViewSet",
+        "importPath": "post.views",
+        "description": "post.views",
         "isExtraImport": true,
-        "detail": "rest_framework.response",
+        "detail": "post.views",
         "documentation": {}
     },
     {
@@ -434,44 +547,43 @@
         "documentation": {}
     },
     {
-        "label": "django.db.models.deletion",
-        "kind": 6,
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
         "isExtraImport": true,
-        "importPath": "django.db.models.deletion",
-        "description": "django.db.models.deletion",
-        "detail": "django.db.models.deletion",
+        "detail": "rest_framework.response",
         "documentation": {}
     },
     {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
+        "label": "CategorySerializer",
+        "importPath": "post.serializers",
+        "description": "post.serializers",
         "isExtraImport": true,
-        "detail": "django.conf",
+        "detail": "post.serializers",
         "documentation": {}
     },
     {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
+        "label": "PostModelSerializer",
+        "importPath": "post.serializers",
+        "description": "post.serializers",
         "isExtraImport": true,
-        "detail": "django.conf",
+        "detail": "post.serializers",
         "documentation": {}
     },
     {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
+        "label": "ValidationError",
+        "importPath": "rest_framework.exceptions",
+        "description": "rest_framework.exceptions",
         "isExtraImport": true,
-        "detail": "django.conf",
+        "detail": "rest_framework.exceptions",
         "documentation": {}
     },
     {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
         "isExtraImport": true,
-        "detail": "django.conf",
+        "detail": "django.utils",
         "documentation": {}
     },
     {
@@ -972,6 +1084,15 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "post.migrations.0002_alter_categorymodel_name_postmodel",
+        "description": "post.migrations.0002_alter_categorymodel_name_postmodel",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('post', '0001_initial'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='categorymodel',\n            name='name',\n            field=models.CharField(max_length=60, unique=True),",
+        "detail": "post.migrations.0002_alter_categorymodel_name_postmodel",
+        "documentation": {}
+    },
+    {
         "label": "PostConfig",
         "kind": 6,
         "importPath": "post.apps",
@@ -985,8 +1106,26 @@
         "kind": 6,
         "importPath": "post.models",
         "description": "post.models",
-        "peekOfCode": "class CategoryModel(models.Model):\n    name = models.CharField(max_length=60, unique=True)\n    slug = models.SlugField(unique=True, blank=True)\n    def save(self, *args, **kwargs):\n        # Check if a category with the same name exists\n        if CategoryModel.objects.filter(name=self.name).exists():\n            raise ValidationError(f\"A category with the name '{\n                                  self.name}' already exists.\")\n        # If slug is not set, generate one from the name\n        if not self.slug:",
+        "peekOfCode": "class CategoryModel(models.Model):\n    name = models.CharField(max_length=60, unique=True)\n    slug = models.SlugField(unique=True, blank=True)\n    def save(self, *args, **kwargs):\n        # Check if a category with the same name exists\n        if CategoryModel.objects.filter(name=self.name).exists():\n            raise ValidationError(f\"A category with the name '{\n                                  self.name}' already exists.\")\n        if not self.slug:\n            self.slug = slugify(self.name)",
         "detail": "post.models",
+        "documentation": {}
+    },
+    {
+        "label": "PostModel",
+        "kind": 6,
+        "importPath": "post.models",
+        "description": "post.models",
+        "peekOfCode": "class PostModel(models.Model):\n    image = models.URLField()\n    user = models.ForeignKey(\n        User, on_delete=models.CASCADE, related_name='posts')\n    title = models.CharField(max_length=300)\n    description = models.TextField()\n    category = models.ManyToManyField(CategoryModel, related_name='posts')\n    created_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return self.title",
+        "detail": "post.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserSerializer",
+        "kind": 6,
+        "importPath": "post.serializers",
+        "description": "post.serializers",
+        "peekOfCode": "class UserSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = User  # Replace with the actual User model if it's custom\n        fields = ['id', 'username', 'email', 'first_name',\n                  'last_name']  # Include other fields as needed\nclass CategorySerializer(serializers.ModelSerializer):\n    class Meta:\n        model = CategoryModel\n        fields = ['id', 'name', 'slug']\n    def validate_name(self, value):",
+        "detail": "post.serializers",
         "documentation": {}
     },
     {
@@ -994,7 +1133,16 @@
         "kind": 6,
         "importPath": "post.serializers",
         "description": "post.serializers",
-        "peekOfCode": "class CategorySerializer(serializers.ModelSerializer):\n    class Meta:\n        model = CategoryModel\n        fields = ['id', 'name', 'slug']\n    def validate_name(self, value):\n        if CategoryModel.objects.filter(name=value).exists():\n            raise serializers.ValidationError(\n                f\"A category with the name '{value}' already exists.\")\n        return value",
+        "peekOfCode": "class CategorySerializer(serializers.ModelSerializer):\n    class Meta:\n        model = CategoryModel\n        fields = ['id', 'name', 'slug']\n    def validate_name(self, value):\n        if CategoryModel.objects.filter(name=value).exists():\n            raise serializers.ValidationError(\n                f\"A category with the name '{value}' already exists.\")\n        return value\nclass PostModelSerializer(serializers.ModelSerializer):",
+        "detail": "post.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "PostModelSerializer",
+        "kind": 6,
+        "importPath": "post.serializers",
+        "description": "post.serializers",
+        "peekOfCode": "class PostModelSerializer(serializers.ModelSerializer):\n    category = CategorySerializer(many=True, read_only=True)\n    category_ids = serializers.PrimaryKeyRelatedField(\n        queryset=CategoryModel.objects.all(),\n        many=True,\n        write_only=True,\n        source='category'\n    )\n    user = UserSerializer(read_only=True)\n    class Meta:",
         "detail": "post.serializers",
         "documentation": {}
     },
@@ -1003,7 +1151,7 @@
         "kind": 5,
         "importPath": "post.urls",
         "description": "post.urls",
-        "peekOfCode": "router = DefaultRouter()\nrouter.register(r'category', CategoryViewSet, basename='category')\nurlpatterns = router.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register(r'category', CategoryViewSet, basename='category')\nrouter.register(r'post', PostViewSet, basename='post')\nurlpatterns = router.urls",
         "detail": "post.urls",
         "documentation": {}
     },
@@ -1022,6 +1170,15 @@
         "importPath": "post.views",
         "description": "post.views",
         "peekOfCode": "class CategoryViewSet(viewsets.ViewSet):\n    def list(self, request):\n        categories = CategoryModel.objects.all()\n        serializer = CategorySerializer(categories, many=True)\n        return Response(serializer.data)\n    def create(self, request):\n        serializer = CategorySerializer(data=request.data)\n        if serializer.is_valid():\n            serializer.save()\n            return Response(",
+        "detail": "post.views",
+        "documentation": {}
+    },
+    {
+        "label": "PostViewSet",
+        "kind": 6,
+        "importPath": "post.views",
+        "description": "post.views",
+        "peekOfCode": "class PostViewSet(viewsets.ModelViewSet):\n    queryset = PostModel.objects.all()\n    serializer_class = PostModelSerializer\n    def get_queryset(self):\n        queryset = super().get_queryset()\n        categories = self.request.query_params.getlist('category')\n        if categories:\n            queryset = queryset.filter(category__id__in=categories).distinct()\n        time_filter = self.request.query_params.get('time')\n        now = timezone.now()",
         "detail": "post.views",
         "documentation": {}
     },
