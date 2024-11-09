@@ -33,6 +33,14 @@
         "documentation": {}
     },
     {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "load_dotenv",
         "importPath": "dotenv",
         "description": "dotenv",
@@ -1178,7 +1186,7 @@
         "kind": 6,
         "importPath": "post.views",
         "description": "post.views",
-        "peekOfCode": "class PostViewSet(viewsets.ModelViewSet):\n    queryset = PostModel.objects.all()\n    serializer_class = PostModelSerializer\n    def get_queryset(self):\n        queryset = super().get_queryset()\n        user_id = self.request.query_params.get('user')\n        if user_id:\n            queryset = queryset.filter(user__id=user_id)\n        categories = self.request.query_params.getlist('category')\n        if categories:",
+        "peekOfCode": "class PostViewSet(viewsets.ModelViewSet):\n    queryset = PostModel.objects.all()\n    serializer_class = PostModelSerializer\n    def get_queryset(self):\n        queryset = super().get_queryset()\n        # Check for category_slug and filter by the slug field\n        category_slug = self.request.query_params.get('category_slug')\n        if category_slug:\n            queryset = queryset.filter(category__slug=category_slug)\n        # Additional time-based filtering, if any",
         "detail": "post.views",
         "documentation": {}
     },

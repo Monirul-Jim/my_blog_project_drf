@@ -6,6 +6,7 @@ from post.serializers import CategorySerializer, PostModelSerializer
 from rest_framework.exceptions import ValidationError
 from django.utils import timezone
 from django.contrib.auth.models import User
+from datetime import timedelta
 
 
 class CategoryViewSet(viewsets.ViewSet):
@@ -63,13 +64,13 @@ class PostViewSet(viewsets.ModelViewSet):
 
     def get_queryset(self):
         queryset = super().get_queryset()
-        user_id = self.request.query_params.get('user')
-        if user_id:
-            queryset = queryset.filter(user__id=user_id)
-        categories = self.request.query_params.getlist('category')
-        if categories:
-            queryset = queryset.filter(category__id__in=categories).distinct()
 
+        # Check for category_slug and filter by the slug field
+        category_slug = self.request.query_params.get('category_slug')
+        if category_slug:
+            queryset = queryset.filter(category__slug=category_slug)
+
+        # Additional time-based filtering, if any
         time_filter = self.request.query_params.get('time')
         now = timezone.now()
 
