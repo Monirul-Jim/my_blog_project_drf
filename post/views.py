@@ -65,14 +65,12 @@ class PostViewSet(viewsets.ModelViewSet):
     def get_queryset(self):
         queryset = super().get_queryset()
 
-        # Check for category_slug and filter by the slug field
         category_slug = self.request.query_params.get('category_slug')
         if category_slug:
             queryset = queryset.filter(category__slug=category_slug)
         user_id = self.request.query_params.get('user')
         if user_id:
             queryset = queryset.filter(user__id=user_id)
-        # Additional time-based filtering, if any
         time_filter = self.request.query_params.get('time')
         now = timezone.now()
 
