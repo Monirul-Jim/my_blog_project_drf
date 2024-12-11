@@ -41,6 +41,15 @@
         "documentation": {}
     },
     {
+        "label": "dj_database_url",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dj_database_url",
+        "description": "dj_database_url",
+        "detail": "dj_database_url",
+        "documentation": {}
+    },
+    {
         "label": "load_dotenv",
         "importPath": "dotenv",
         "description": "dotenv",
@@ -907,7 +916,7 @@
         "kind": 5,
         "importPath": "blog_project_backend.settings",
         "description": "blog_project_backend.settings",
-        "peekOfCode": "WSGI_APPLICATION = 'blog_project_backend.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "peekOfCode": "WSGI_APPLICATION = 'blog_project_backend.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\n# DATABASES = {\n#     'default': {\n#         'ENGINE': 'django.db.backends.sqlite3',\n#         'NAME': BASE_DIR / 'db.sqlite3',\n#     }\n# }\nDATABASES = {",
         "detail": "blog_project_backend.settings",
         "documentation": {}
     },
@@ -916,7 +925,7 @@
         "kind": 5,
         "importPath": "blog_project_backend.settings",
         "description": "blog_project_backend.settings",
-        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "peekOfCode": "DATABASES = {\n    'default': dj_database_url.parse(\n        os.getenv('DATABASE_URL')\n    )\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',",
         "detail": "blog_project_backend.settings",
         "documentation": {}
     },
@@ -1186,7 +1195,7 @@
         "kind": 6,
         "importPath": "post.views",
         "description": "post.views",
-        "peekOfCode": "class PostViewSet(viewsets.ModelViewSet):\n    queryset = PostModel.objects.all()\n    serializer_class = PostModelSerializer\n    def get_queryset(self):\n        queryset = super().get_queryset()\n        # Check for category_slug and filter by the slug field\n        category_slug = self.request.query_params.get('category_slug')\n        if category_slug:\n            queryset = queryset.filter(category__slug=category_slug)\n        user_id = self.request.query_params.get('user')",
+        "peekOfCode": "class PostViewSet(viewsets.ModelViewSet):\n    queryset = PostModel.objects.all()\n    serializer_class = PostModelSerializer\n    def get_queryset(self):\n        queryset = super().get_queryset()\n        category_slug = self.request.query_params.get('category_slug')\n        if category_slug:\n            queryset = queryset.filter(category__slug=category_slug)\n        user_id = self.request.query_params.get('user')\n        if user_id:",
         "detail": "post.views",
         "documentation": {}
     },
