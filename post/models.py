@@ -13,8 +13,7 @@ class CategoryModel(models.Model):
     def save(self, *args, **kwargs):
         # Check if a category with the same name exists
         if CategoryModel.objects.filter(name=self.name).exists():
-            raise ValidationError(f'A category with the name in the database 
-                                  {self.name} already exists.')
+            raise ValidationError('this category name already exists')
         if not self.slug:
             self.slug = slugify(self.name)
 
