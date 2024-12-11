@@ -1123,7 +1123,7 @@
         "kind": 6,
         "importPath": "post.models",
         "description": "post.models",
-        "peekOfCode": "class CategoryModel(models.Model):\n    name = models.CharField(max_length=60, unique=True)\n    slug = models.SlugField(unique=True, blank=True)\n    def save(self, *args, **kwargs):\n        # Check if a category with the same name exists\n        if CategoryModel.objects.filter(name=self.name).exists():\n            raise ValidationError(f\"A category with the name {\n                                  self.name} already exists.\")\n        if not self.slug:\n            self.slug = slugify(self.name)",
+        "peekOfCode": "class CategoryModel(models.Model):\n    name = models.CharField(max_length=60, unique=True)\n    slug = models.SlugField(unique=True, blank=True)\n    def save(self, *args, **kwargs):\n        # Check if a category with the same name exists\n        if CategoryModel.objects.filter(name=self.name).exists():\n            raise ValidationError(f'A category with the name in the database \n                                  {self.name} already exists.')\n        if not self.slug:\n            self.slug = slugify(self.name)",
         "detail": "post.models",
         "documentation": {}
     },
