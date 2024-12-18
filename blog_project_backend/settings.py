@@ -117,10 +117,11 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:5173'
+    'https://blog-publish-app.vercel.app/'
 ]
 CORS_ALLOW_CREDENTIALS = True
-CSRF_TRUSTED_ORIGINS = ["http://localhost:5173", "http://localhost:8000"]
+CSRF_TRUSTED_ORIGINS = [
+    "https://blog-publish-app.vercel.app/", "http://localhost:8000"]
 CSRF_COOKIE_SECURE = True
 CSRF_COOKIE_HTTPONLY = False
 

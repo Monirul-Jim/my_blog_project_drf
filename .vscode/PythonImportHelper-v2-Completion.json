@@ -943,7 +943,7 @@
         "kind": 5,
         "importPath": "blog_project_backend.settings",
         "description": "blog_project_backend.settings",
-        "peekOfCode": "CORS_ALLOWED_ORIGINS = [\n    'http://localhost:5173'\n]\nCORS_ALLOW_CREDENTIALS = True\nCSRF_TRUSTED_ORIGINS = [\"http://localhost:5173\", \"http://localhost:8000\"]\nCSRF_COOKIE_SECURE = True\nCSRF_COOKIE_HTTPONLY = False\nCORS_ALLOW_METHODS = (\n    \"DELETE\",\n    \"GET\",",
+        "peekOfCode": "CORS_ALLOWED_ORIGINS = [\n    'https://blog-publish-app.vercel.app/'\n]\nCORS_ALLOW_CREDENTIALS = True\nCSRF_TRUSTED_ORIGINS = [\n    \"https://blog-publish-app.vercel.app/\", \"http://localhost:8000\"]\nCSRF_COOKIE_SECURE = True\nCSRF_COOKIE_HTTPONLY = False\nCORS_ALLOW_METHODS = (\n    \"DELETE\",",
         "detail": "blog_project_backend.settings",
         "documentation": {}
     },
@@ -952,7 +952,7 @@
         "kind": 5,
         "importPath": "blog_project_backend.settings",
         "description": "blog_project_backend.settings",
-        "peekOfCode": "CORS_ALLOW_CREDENTIALS = True\nCSRF_TRUSTED_ORIGINS = [\"http://localhost:5173\", \"http://localhost:8000\"]\nCSRF_COOKIE_SECURE = True\nCSRF_COOKIE_HTTPONLY = False\nCORS_ALLOW_METHODS = (\n    \"DELETE\",\n    \"GET\",\n    \"OPTIONS\",\n    \"PATCH\",\n    \"POST\",",
+        "peekOfCode": "CORS_ALLOW_CREDENTIALS = True\nCSRF_TRUSTED_ORIGINS = [\n    \"https://blog-publish-app.vercel.app/\", \"http://localhost:8000\"]\nCSRF_COOKIE_SECURE = True\nCSRF_COOKIE_HTTPONLY = False\nCORS_ALLOW_METHODS = (\n    \"DELETE\",\n    \"GET\",\n    \"OPTIONS\",\n    \"PATCH\",",
         "detail": "blog_project_backend.settings",
         "documentation": {}
     },
@@ -961,7 +961,7 @@
         "kind": 5,
         "importPath": "blog_project_backend.settings",
         "description": "blog_project_backend.settings",
-        "peekOfCode": "CSRF_TRUSTED_ORIGINS = [\"http://localhost:5173\", \"http://localhost:8000\"]\nCSRF_COOKIE_SECURE = True\nCSRF_COOKIE_HTTPONLY = False\nCORS_ALLOW_METHODS = (\n    \"DELETE\",\n    \"GET\",\n    \"OPTIONS\",\n    \"PATCH\",\n    \"POST\",\n    \"PUT\",",
+        "peekOfCode": "CSRF_TRUSTED_ORIGINS = [\n    \"https://blog-publish-app.vercel.app/\", \"http://localhost:8000\"]\nCSRF_COOKIE_SECURE = True\nCSRF_COOKIE_HTTPONLY = False\nCORS_ALLOW_METHODS = (\n    \"DELETE\",\n    \"GET\",\n    \"OPTIONS\",\n    \"PATCH\",\n    \"POST\",",
         "detail": "blog_project_backend.settings",
         "documentation": {}
     },
