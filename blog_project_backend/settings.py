@@ -29,7 +29,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['blog-publish-app.onrender.com']
+ALLOWED_HOSTS = ['my-blog-project-drf.onrender.com']
 
 
 # Application definition
